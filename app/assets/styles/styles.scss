@@ -1,2 +1,4 @@
-@import './base/global';
+@import './node_modules/normalize-scss/sass/normalize/import-now';
 @import './base/variables';
+@import './base/global';
+@import './modules/wrapper';
