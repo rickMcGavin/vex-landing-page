@@ -1,0 +1,14 @@
+{
+  "name": "vex-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "skeletor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RM",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
