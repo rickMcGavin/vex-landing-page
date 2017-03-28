@@ -11,10 +11,10 @@ My personal goals for this project to push my skills to the next level include:
   - index.html file, asset folders, css folders and file, js folders and file, readme.md file, and .gitignore file.
 - [ ] Use build tools (Gulp and Webpack) to 
   - [ ] Automate browser refresh 
-  - Inject CSS
-  - Compile SCSS and convert to CSS 
-  - Bundle JavaScript (webpack) 
-  - Build production minified production code
+  - [ ] Inject CSS
+  - [ ] Compile SCSS and convert to CSS 
+  - [ ] Bundle JavaScript (webpack) 
+  - [ ] Build production minified production code
 - [ ] Design and Develop mobile version based on desktop design
 _Designer did not provide a mobile version, which is why I intentionally chose this file as I wanted to develop a responsive mobile version myself._
 - [ ] Use SVG icons and automatically build a sprite for them.
