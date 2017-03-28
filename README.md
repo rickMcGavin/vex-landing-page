@@ -10,9 +10,10 @@ My personal goals for this project to push my skills to the next level include:
 - [x] Write a node.js file that automatically builds my initial file structure. 
   - index.html file, asset folders, css folders and file, js folders and file, readme.md file, and .gitignore file.
 - [ ] Use build tools (Gulp and Webpack) to 
-  - [ ] Automate browser refresh 
-  - [ ] Inject CSS
-  - [ ] Compile SCSS and convert to CSS 
+  - [x] Automate browser refresh on html change
+  - [ ] Automate browser refresh on javascript change
+  - [x] Inject CSS
+  - [x] Compile SCSS and convert to CSS 
   - [ ] Bundle JavaScript (webpack) 
   - [ ] Build production minified production code
 - [ ] Design and Develop mobile version based on desktop design
