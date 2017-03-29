@@ -424,7 +424,53 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: 'Josefin Sans', sans-serif; }
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px; }
+
+.page-section {
+  height: 100vh; }
+  .page-section--above-fold {
+    height: 90vh; }
 
 .wrapper {
   padding: 0 18.05%; }
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .flex-row--center-content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+.col6 {
+  width: 50%; }
+
+.page-section-header {
+  width: 1023px;
+  margin: 0 auto;
+  min-height: auto; }
+  .page-section-header__image {
+    text-align: center; }
+  .page-section-header__content-heading {
+    color: #3B4045;
+    font-size: 3.5rem;
+    margin-top: 0; }
+  .page-section-header p {
+    font-size: 1.25rem;
+    color: #777;
+    margin-bottom: 50px; }
+
+.btn {
+  background-color: #FDA920;
+  border-radius: 40px;
+  color: #FFF;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 25px;
+  box-shadow: 0px 5px 15px 0px #feb648; }

@@ -1,0 +1,22 @@
+.page-section-header {
+	width: 1023px;
+	margin: 0 auto;
+	min-height: auto;
+
+
+	&__image {
+		text-align: center;
+	}
+
+ 	&__content-heading {
+ 		color: $secondaryText;
+ 		font-size: 3.5rem;
+ 		margin-top: 0;
+ 	}
+
+ 	p {
+ 		font-size: 1.25rem;
+ 		color: $tertiaryText;
+ 		margin-bottom: 50px;
+ 	}
+}
