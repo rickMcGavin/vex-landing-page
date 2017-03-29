@@ -19,6 +19,7 @@ My personal goals for this project to push my skills to the next level include:
 - [ ] Design and Develop mobile version based on desktop design
 _Designer did not provide a mobile version, which is why I intentionally chose this file as I wanted to develop a responsive mobile version myself._
 - [ ] Use SVG icons and automatically build a sprite for them.
+_Icons in Core Features section by [Significa](https://dribbble.com/significa)_
 _I will be opting get icons from another source as they were not supplied in the sketch file, and I don't want to use bootstrap icons._
 
 

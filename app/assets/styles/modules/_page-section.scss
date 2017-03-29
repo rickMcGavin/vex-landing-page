@@ -1,7 +1,36 @@
 .page-section {
-	height: 100vh;
+	min-height: 100vh;
 
-	&--above-fold {
-		height: 90vh;
+	&__header {
+		max-width: 1023px;
+		width: 100%;
+		margin: 0 auto;
+
+
+		&__image {
+			text-align: center;
+		}
+
+	 	&__content-heading {
+	 		color: $secondaryText;
+	 		font-size: 3.5rem;
+	 		padding: 15px;
+	 		text-align: center;
+
+	 		@include atMedium {
+	 			text-align: left;
+	 			margin-top: 0;
+	 		}
+	 	}
+
+	 	p {
+	 		font-size: 1.25rem;
+	 		color: $tertiaryText;
+	 		margin-bottom: 50px;
+	 		padding: 0 15px;
+	 	}
+
 	}
+
+	&
 }

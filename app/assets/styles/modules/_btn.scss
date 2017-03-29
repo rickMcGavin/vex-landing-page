@@ -7,4 +7,12 @@
 	text-decoration: none;
 	padding: 10px 25px;
 	box-shadow: 0px 5px 15px 0px $buttonOrange;
+
+	&--center-small {
+		text-align: center;
+
+			@include atMedium {
+				text-align: left;
+		}
+	}
 }

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>20x20/Custom</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="9" cy="13" r="2"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="4" height="4" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="16" cy="5" r="2"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="4" height="4" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <circle id="path-5" cx="2" cy="8" r="2"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="4" height="4" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="20x20" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="20x20/Custom">
+            <g id="Custom">
+                <g id="Icon" transform="translate(1.000000, 1.000000)">
+                    <path d="M2,0.5 L2,6.5" id="Line-35" stroke="#36434D" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M2,9.5 L2,17.5" id="Line-34" stroke="#36434D" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M9,0.5 L9,11.5" id="Line-33" stroke="#36434D" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M9,14.5 L9,17.5" id="Line-32" stroke="#36434D" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M16,0.5 L16,3.5" id="Line-31" stroke="#36434D" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M16,6.5 L16,17.5" id="Line-30" stroke="#36434D" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <use id="Line-29" stroke="#35424C" mask="url(#mask-2)" stroke-width="2" stroke-linecap="square" xlink:href="#path-1"></use>
+                    <use id="Line-28" stroke="#35424C" mask="url(#mask-4)" stroke-width="2" stroke-linecap="square" xlink:href="#path-3"></use>
+                    <use id="Line-27" stroke="#35424C" mask="url(#mask-6)" stroke-width="2" stroke-linecap="square" xlink:href="#path-5"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

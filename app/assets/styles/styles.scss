@@ -1,6 +1,7 @@
 @import './node_modules/normalize-scss/sass/normalize/import-now';
 @import './base/variables';
 @import './base/global';
+@import './base/mixins';
 @import './modules/page-section';
 @import './modules/wrapper';
 @import './modules/flex-row';
