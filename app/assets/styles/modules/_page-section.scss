@@ -1,7 +1,7 @@
 .page-section {
 	min-height: 100vh;
 
-	&__header {
+	&-header {
 		max-width: 1000px;
 		width: 100%;
 		margin: 0 auto;
@@ -11,10 +11,13 @@
 			text-align: center;
 		}
 
+		&__content {
+			padding: 15px;
+		}
+
 	 	&__content-heading {
 	 		color: $secondaryText;
-	 		font-size: 3.5rem;
-	 		padding: 15px;
+	 		font-size: 3.25rem;
 	 		text-align: center;
 
 	 		@include atMedium {
@@ -27,7 +30,6 @@
 	 		font-size: 1.25rem;
 	 		color: $tertiaryText;
 	 		margin-bottom: 50px;
-	 		padding: 0 15px;
 	 	}
 
 	}

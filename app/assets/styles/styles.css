@@ -429,26 +429,26 @@ body {
 
 .page-section {
   min-height: 100vh; }
-  .page-section__header {
-    max-width: 1023px;
+  .page-section-header {
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto; }
-    .page-section__header__image {
+    .page-section-header__image {
       text-align: center; }
-    .page-section__header__content-heading {
+    .page-section-header__content {
+      padding: 15px; }
+    .page-section-header__content-heading {
       color: #3B4045;
-      font-size: 3.5rem;
-      padding: 15px;
+      font-size: 3.25rem;
       text-align: center; }
       @media (min-width: 800px) {
-        .page-section__header__content-heading {
+        .page-section-header__content-heading {
           text-align: left;
           margin-top: 0; } }
-    .page-section__header p {
+    .page-section-header p {
       font-size: 1.25rem;
       color: #777;
-      margin-bottom: 50px;
-      padding: 0 15px; }
+      margin-bottom: 50px; }
   .page-section-our-features__sub-header {
     text-align: center; }
   .page-section-our-features__image {
