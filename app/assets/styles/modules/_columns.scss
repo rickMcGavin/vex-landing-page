@@ -1,6 +1,11 @@
 
 @include atMedium {
-		.medium-col6 {	
+
+	.medium-col3 {
+		width: 25%;
+	}
+
+	.medium-col6 {	
 		width: 50%;
 	}
 }
