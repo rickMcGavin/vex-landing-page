@@ -430,7 +430,7 @@ body {
 .page-section {
   min-height: 100vh; }
   .page-section__header {
-    max-width: 1000px;
+    max-width: 1023px;
     width: 100%;
     margin: 0 auto; }
     .page-section__header__image {
@@ -449,6 +449,15 @@ body {
       color: #777;
       margin-bottom: 50px;
       padding: 0 15px; }
+  .page-section-our-features__sub-header {
+    text-align: center; }
+  .page-section-our-features__image {
+    text-align: center; }
+  .page-section-our-features__sub-section-header {
+    font-weight: 400;
+    margin: 0; }
+  .page-section-our-features__paragraph {
+    font-weight: 300; }
 
 .wrapper {
   padding: 0 18.05%; }
@@ -466,8 +475,17 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+  .flex-row--even-spacing {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0 100px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 @media (min-width: 800px) {
+  .medium-col3 {
+    width: 25%; }
   .medium-col6 {
     width: 50%; } }
 
