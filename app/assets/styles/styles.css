@@ -436,7 +436,7 @@ body {
     .page-section-header__image {
       text-align: center; }
     .page-section-header__content {
-      padding: 15px; }
+      padding: 0 15px; }
     .page-section-header__content-heading {
       color: #3B4045;
       font-size: 3.25rem;
@@ -451,6 +451,10 @@ body {
       margin-bottom: 50px; }
   .page-section-our-features__sub-header {
     text-align: center; }
+  .page-section-our-features__bullet-group {
+    margin: 10px 0; }
+  .page-section-our-features__bullet {
+    margin: 5px 0; }
   .page-section-our-features__image {
     text-align: center; }
   .page-section-our-features__sub-section-header {
@@ -478,10 +482,13 @@ body {
   .flex-row--even-spacing {
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin: 0 100px;
+    margin: 0 15px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+    @media (min-width: 800px) {
+      .flex-row--even-spacing {
+        margin: 0 100px; } }
 
 @media (min-width: 800px) {
   .medium-col3 {

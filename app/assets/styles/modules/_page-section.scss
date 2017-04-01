@@ -12,7 +12,7 @@
 		}
 
 		&__content {
-			padding: 15px;
+			padding: 0 15px;
 		}
 
 	 	&__content-heading {
@@ -33,20 +33,37 @@
 	 	}
 
 	}
-	&-our-features__sub-header {
-		text-align: center;
+
+	&-our-features {
+
+		&__sub-header {
+			text-align: center;
+		}
+
+		&__bullet-group {
+			margin: 10px 0;
+		}
+
+		&__bullet {
+			margin: 5px 0;
+		}
+	
+		&__image {
+			text-align: center;
+		}
+
+		&__sub-section-header {
+			font-weight: 400;
+			margin: 0;
+		}
+
+		&__paragraph {
+			font-weight: 300;
+		}
+
 	}
 
-	&-our-features__image {
-		text-align: center;
-	}
 
-	&-our-features__sub-section-header {
-		font-weight: 400;
-		margin: 0;
-	}
 
-	&-our-features__paragraph {
-		font-weight: 300;
-	}
+
 }

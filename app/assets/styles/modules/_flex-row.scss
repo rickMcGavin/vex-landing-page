@@ -9,7 +9,11 @@
 
 	&--even-spacing {
 		justify-content: space-around;
-		margin: 0 100px;
+		margin: 0 15px;
 		align-items: center;
+
+		@include atMedium {
+			margin: 0 100px;
+		}
 	}
 }
