@@ -427,42 +427,6 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px; }
 
-.page-section {
-  min-height: 100vh; }
-  .page-section-header {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto; }
-    .page-section-header__image {
-      text-align: center; }
-    .page-section-header__content {
-      padding: 0 15px; }
-    .page-section-header__content-heading {
-      color: #3B4045;
-      font-size: 3.25rem;
-      text-align: center; }
-      @media (min-width: 800px) {
-        .page-section-header__content-heading {
-          text-align: left;
-          margin-top: 0; } }
-    .page-section-header p {
-      font-size: 1.25rem;
-      color: #777;
-      margin-bottom: 50px; }
-  .page-section-our-features__sub-header {
-    text-align: center; }
-  .page-section-our-features__bullet-group {
-    margin: 10px 0; }
-  .page-section-our-features__bullet {
-    margin: 5px 0; }
-  .page-section-our-features__image {
-    text-align: center; }
-  .page-section-our-features__sub-section-header {
-    font-weight: 400;
-    margin: 0; }
-  .page-section-our-features__paragraph {
-    font-weight: 300; }
-
 .wrapper {
   padding: 0 18.05%; }
 
@@ -482,7 +446,7 @@ body {
   .flex-row--even-spacing {
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin: 0 15px;
+    margin: 0 30px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
@@ -510,3 +474,46 @@ body {
     @media (min-width: 800px) {
       .btn--center-small {
         text-align: left; } }
+
+.page-section {
+  min-height: 100vh; }
+
+.page-section-header {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto; }
+  .page-section-header__image {
+    text-align: center; }
+  .page-section-header__content {
+    padding: 0 30px; }
+  .page-section-header__content-heading {
+    color: #3B4045;
+    font-size: 3.25rem;
+    text-align: center; }
+    @media (min-width: 800px) {
+      .page-section-header__content-heading {
+        text-align: left;
+        margin-top: 0; } }
+  .page-section-header p {
+    font-size: 1.25rem;
+    color: #777;
+    margin-bottom: 50px; }
+
+.page-section-our-features__sub-header {
+  text-align: center; }
+
+.page-section-our-features__bullet-group {
+  margin: 10px 0; }
+
+.page-section-our-features__bullet {
+  margin: 5px 0; }
+
+.page-section-our-features__image {
+  text-align: center; }
+
+.page-section-our-features__sub-section-header {
+  font-weight: 400;
+  margin: 0; }
+
+.page-section-our-features__paragraph {
+  font-weight: 300; }
