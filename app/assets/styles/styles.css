@@ -563,3 +563,32 @@ body {
   .page-section-professional-design p {
     font-weight: 300;
     font-size: 1.125rem; }
+
+.page-section-choose-apple-watch__header {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: center; }
+
+.page-section-choose-apple-watch__product-container {
+  text-align: center;
+  margin: 25px 0; }
+  @media (min-width: 800px) {
+    .page-section-choose-apple-watch__product-container {
+      padding: 0 100px; } }
+
+.page-section-choose-apple-watch__image-container {
+  text-align: center;
+  width: 100%; }
+  @media (min-width: 800px) {
+    .page-section-choose-apple-watch__image-container {
+      width: 50%; } }
+
+.page-section-choose-apple-watch__content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  padding: 0 30px; }

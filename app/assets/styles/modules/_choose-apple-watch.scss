@@ -1,0 +1,34 @@
+.page-section-choose-apple-watch {
+
+	&__header {
+		font-size: 2.5rem;
+		font-weight: 300;
+		text-align: center;
+	}
+
+	&__product-container {
+		text-align: center;
+		margin: 25px 0;
+
+		@include atMedium {
+			padding: 0 100px;
+		}
+	}
+
+	&__image-container {
+		text-align: center;
+		width: 100%;
+
+		@include atMedium {
+			width: 50%;
+		}
+	}
+
+	&__content-container {
+		display: flex;
+		align-items: center;
+		text-align: left;
+		padding: 0 30px;
+	}
+
+}
