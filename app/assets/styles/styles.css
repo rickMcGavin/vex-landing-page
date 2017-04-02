@@ -500,7 +500,9 @@ body {
     margin-bottom: 50px; }
 
 .page-section-our-features__sub-header {
-  text-align: center; }
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400; }
 
 .page-section-our-features__bullet-group {
   margin: 10px 0; }
@@ -517,3 +519,47 @@ body {
 
 .page-section-our-features__paragraph {
   font-weight: 300; }
+
+.page-section-professional-design {
+  background: #FDA920;
+  color: #FFF;
+  padding: 30px; }
+  .page-section-professional-design__image-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%; }
+    @media (min-width: 800px) {
+      .page-section-professional-design__image-container {
+        width: 50%;
+        height: 100vh; } }
+  .page-section-professional-design__content-container {
+    width: 100%;
+    text-align: center; }
+    @media (min-width: 530px) {
+      .page-section-professional-design__content-container {
+        margin-top: 15%; } }
+    @media (min-width: 800px) {
+      .page-section-professional-design__content-container {
+        width: 50%;
+        height: 100vh;
+        text-align: left;
+        margin: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
+  .page-section-professional-design h2 {
+    font-weight: 400;
+    font-size: 2.5rem; }
+  .page-section-professional-design p {
+    font-weight: 300;
+    font-size: 1.125rem; }

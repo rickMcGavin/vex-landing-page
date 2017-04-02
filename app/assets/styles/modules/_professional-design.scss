@@ -1,0 +1,45 @@
+.page-section-professional-design {
+	background: $mainOrange;
+	color: $mainWhite;
+	padding: 30px;
+
+	&__image-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+
+		@include atMedium {
+			width: 50%;
+			height: 100vh;
+		}
+	}
+
+	&__content-container {
+		width: 100%;
+		text-align: center;
+
+		@include atSmall {
+			margin-top: 15%;
+		}
+
+		@include atMedium {
+			width: 50%;
+			height: 100vh;
+			text-align: left;
+			margin: 0;
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	h2 {
+		font-weight: 400;
+		font-size: 2.5rem;
+	}
+
+	p {
+		font-weight: 300;
+		font-size: 1.125rem;
+	}
+}
