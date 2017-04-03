@@ -592,3 +592,8 @@ body {
           align-items: center;
   text-align: left;
   padding: 0 30px; }
+
+.page-section-amazing-shots__header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400; }
